@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.license       = "MIT"
   gem.authors       = "Aidan Nagorcka-Smith"
   gem.email         = "aidanns@gmail.com"
-  gem.homepage      = "http://www.vagrantup.com"
+  gem.homepage      = "https://github.com/aidanns/vagrant-reload"
   gem.description   = "Enables reloading a vagrant VM as a provisioning step."
   gem.summary       = "Enables reloading a vagrant VM as a provisioning step."
 
