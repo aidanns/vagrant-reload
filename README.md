@@ -5,7 +5,7 @@ be used to do a reload on a VM during provisioning.
 
 # Installation
 
-`$ vagrant plugin install vagrant-reload`
+    $ vagrant plugin install vagrant-reload
 
 ## Usage
 
