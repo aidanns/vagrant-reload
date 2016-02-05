@@ -1,7 +1,7 @@
 begin
   require "vagrant"
 rescue LoadError
-  raise "The Vagrant AWS plugin must be run within Vagrant."
+  raise "The Vagrant Reload plugin must be run within Vagrant."
 end
 
 # This is a sanity check to make sure no one is attempting to install
