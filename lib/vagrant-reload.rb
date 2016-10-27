@@ -13,7 +13,7 @@ end
 module VagrantPlugins
   module Reload
 
-    VERSION = "0.0.1"
+    VERSION = "0.0.2"
 
     class Plugin < Vagrant.plugin("2")
       name "Reload"
@@ -34,6 +34,8 @@ module VagrantPlugins
           def provision
             options = {}
             options[:provision_ignore_sentinel] = false
+            options[:config_validate] = false
+            
             @machine.action(:reload, options)
             begin
               sleep 10
